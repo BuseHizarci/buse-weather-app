@@ -1,0 +1,72 @@
+body {
+    background-color: #fdefd8;
+  }
+  h1 {
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: #ffff;
+  }
+  h2 {
+    font-family: "Monoton", cursive;
+    font-size: 45px;
+    color: #ffff;
+    text-align: center;
+  }
+  h3 {
+    font-family: "Monoton", cursive;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    color: #ffff;
+  }
+  .float canvas {
+    padding-left: 50px;
+  }
+  .WeatherTemperature {
+    position: relative;
+    padding-left: 35px;
+    font-size: 55px;
+  }
+  
+  i {
+    color: orange;
+  }
+  
+  .unit {
+    color: #ffff;
+    cursor: default;
+    font-size: 25px;
+  }
+  
+  .Weather.unit:hover {
+    text-decoration: none;
+  }
+  
+  li {
+    display: flex;
+    padding-left: 110px;
+    color: #ffff;
+    list-style: none;
+    font-family: "Monoton", cursive;
+  }
+  
+  .box {
+    display: block;
+    max-width: 400px;
+    margin: 200px auto;
+    margin-bottom: 20px;
+    padding: 30px 1px;
+    background-image: url(https://i.pinimg.com/564x/47/22/4f/47224f874bf472f0a336818480718172.jpg);
+    border: 2px solid #fdefd8;
+    border-radius: 12px;
+    box-shadow: 10px 5px 8px #fad8bb;
+  }
+  
+  .App footer {
+    margin: 10px 0;
+    font-size: 12px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+  }
+  
