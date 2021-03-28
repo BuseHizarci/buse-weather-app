@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-// import WeatherInfo from "./WeatherInfo";
-// import WeatherForecast from "./WeatherForecast";
-// import axios from "axios";
+import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
+import axios from 'axios';
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -52,7 +52,6 @@ export default function Weather(props) {
                   className="form-control"
                   autocomplete="off"
                   onChange={handleCityChange}
-             //her degisiklikte handleCityChange fonksiyonu icinden setCity ile sehri degistiriyor
                 />
               </div>
               <div classname="col-2">
@@ -71,6 +70,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Pls wait .. loading";
+    return "🌻 🌈 loading...";
   }
 }
