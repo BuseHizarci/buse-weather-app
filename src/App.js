@@ -8,12 +8,14 @@ export default function App() {
       <div className="container">
          <Weather defaultCity="London" />
          <footer>
-           This app Coded by {""}
+           Coded by {""}
            <a href = "https://www.linkedin.com/in/buse-hizarci-258342111/" target="_blank">
              Buse HIZARCI
            </a>{" "}
-           and is {""}
+            - Find more {""}
+  
            <a href="https://github.com/BuseHizarci" target="_blank">
+             GitHub
              {""}
            </a>
          </footer>
