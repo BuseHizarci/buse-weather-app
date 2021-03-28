@@ -9,8 +9,7 @@ export default function App() {
          <Weather defaultCity="London" />
          <footer>
            Coded by {""}
-           <a href = "https://www.linkedin.com/in/buse-hizarci-258342111/" target="_blank">
-             Buse HIZARCI
+           <a href = "https://www.linkedin.com/in/buse-hizarci-258342111/" target="_blank">             Buse HIZARCI
            </a>{" "}
             - Find more {""}
   
