@@ -1,16 +1,16 @@
 body {
-    background-color: #fdefd8;
+    background-color: #a7ddf3;
   }
   h1 {
-    font-size: 16px;
+    font-size: 34px;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    color: #ffff;
+    color: rgb(224, 18, 36);
   }
   h2 {
     font-family: "Monoton", cursive;
     font-size: 45px;
-    color: #ffff;
+    color: rgb(243, 75, 9);
     text-align: center;
   }
   h3 {
@@ -18,7 +18,7 @@ body {
     text-align: center;
     padding-top: 20px;
     padding-right: 30px;
-    color: #ffff;
+    color: rgba(91, 10, 241, 0.561);
   }
   .float canvas {
     padding-left: 50px;
@@ -30,11 +30,11 @@ body {
   }
   
   i {
-    color: orange;
+    color: rgb(29, 230, 106);
   }
   
   .unit {
-    color: #ffff;
+    color: rgb(235, 111, 102);
     cursor: default;
     font-size: 25px;
   }
@@ -46,9 +46,9 @@ body {
   li {
     display: flex;
     padding-left: 110px;
-    color: #ffff;
+    color: rgb(245, 10, 10);
     list-style: none;
-    font-family: "Monoton", cursive;
+    font-family: "Courier New", cursive;
   }
   
   .box {
@@ -57,16 +57,16 @@ body {
     margin: 200px auto;
     margin-bottom: 20px;
     padding: 30px 1px;
-    background-image: url(https://i.pinimg.com/564x/47/22/4f/47224f874bf472f0a336818480718172.jpg);
-    border: 2px solid #fdefd8;
+    background-image: url(https://image.freepik.com/free-vector/cloudy-blue-background_53876-82143.jpg);
+    border: 2px solid #b85818;
     border-radius: 12px;
-    box-shadow: 10px 5px 8px #fad8bb;
+    box-shadow: 10px 5px 8px #228588c0;
   }
   
   .App footer {
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: 12px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New", cursive;
     text-align: center;
   }
   
