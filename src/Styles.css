@@ -3,12 +3,12 @@ body {
   }
   h1 {
     font-size: 34px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Chalkduster", Courier, monospace;
     text-align: center;
     color: rgb(224, 18, 36);
   }
   h2 {
-    font-family: "Monoton", cursive;
+    font-family: "Chalkduster";
     font-size: 45px;
     color: rgb(243, 75, 9);
     text-align: center;
@@ -21,7 +21,7 @@ body {
     color: rgba(91, 10, 241, 0.561);
   }
   .float canvas {
-    padding-left: 50px;
+    padding-left: 30px;
   }
   .WeatherTemperature {
     position: relative;
@@ -48,7 +48,8 @@ body {
     padding-left: 110px;
     color: rgb(245, 10, 10);
     list-style: none;
-    font-family: "Courier New", cursive;
+    font-family: "Chalkduster"
+    ;
   }
   
   .box {

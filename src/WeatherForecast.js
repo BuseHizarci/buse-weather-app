@@ -25,7 +25,8 @@ export default function WeatherForecast(props) {
     let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
     let url = `https://api.openweathermap.org/data/2.5/forecast?q=${props.city}&appid=${apiKey}&units=metric`;
     axios.get(url).then(handleForecastResponse);
-
     return null;
+    // sen sehir girmemissin, ben senin default girdigin sehri servisten cekmeye gidiyorum,
+    // handleForecastResponse islem gorur ve setLoaded true yapacagim ve ilk koosulu calistircam
   }
 }

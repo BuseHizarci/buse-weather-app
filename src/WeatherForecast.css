@@ -1,12 +1,13 @@
 .WeatherForecast {
     text-align: center;
-    margin: 40px 0;
+    margin: 50px 0;
     font-family: "Monoton", cursive;
-    color: #ffffff;
+    color: hsl(236, 96%, 50%);
   }
   
   .WeatherForecast canvas {
     display: flex;
-    width: 38px;
+    width: 50px;
+    color: hsl(12, 83%, 50%);
   }
   
